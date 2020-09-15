@@ -31,7 +31,6 @@ int main() {
   printf("sum is %d.\n",sum_n(n));
   char *s = readline("Enter a string: ");
   print_n(s,n);
-  return 0;
 }
 
 
