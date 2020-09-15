@@ -26,7 +26,7 @@ void print_n(const char *s, int n){
  }
 
 int main() {
-  char *name = readline("Enter an int:");
+  char *name = readline("Enter an int: ");
   int n = atof(name);
   printf("sum is %d.\n",sum_n(n));
   char *s = readline("Enter a string: ");
