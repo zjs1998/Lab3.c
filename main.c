@@ -18,7 +18,7 @@ int sum_n(int n){
 
 void print_n(const char *s, int n){
    if (n>=1){
-     printf("%s.\n",s);
+     printf("%s\n",s);
      print_n(s,n-1);
    }
    else 
